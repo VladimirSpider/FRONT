@@ -308,15 +308,15 @@ ul {
 }
 .mod-shift_S {
   left: 100px;
-}    
+}
 .block_representation__slide {
   padding: 75px 215px;
-  background-color: #ceb3cb;    
+  background-color: #ceb3cb;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}    
+}
 .representation__card__slide {
   background-color: #b08ead;
   width: 440px;
@@ -329,14 +329,14 @@ ul {
 .card__text__slide {
   width: 320px;
 }
-.representation__card__slide p {    
+.representation__card__slide p {
   color: #ffffff;
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 1.5px;
   font-family: "Roboto400", sans-serif;
   font-weight: 400;
-}    
+}
 .representation__card__slide h2 {
   color: #ffffff;
   font-size: 45px;
@@ -347,18 +347,20 @@ ul {
 .card_text_slide_p-mod {
   margin-bottom: 10px;
 }
-.card_text_slide_h-mod {    
+.card_text_slide_h-mod {
   margin-bottom: 20px;
-}    
+}
 .card_line {
   background-color: #ffffff;
   height: 2px;
-}    
-.card_line-mod_F {
-  width: 30%;
 }
-.card_line-mod_S {
-  width: 25%;
+.mod-under_line_b {
+  border-bottom: 2px solid white;
+  width: 105px;
+}
+.mod-under_line_s {
+  border-bottom: 2px solid white;
+  width: 75px;
 }
 
 @media (max-width: 1180px) {
@@ -382,7 +384,7 @@ ul {
   .block_representation__slide {
     padding: 75px 20px;
   }
-}    
+}
 @media (max-width: 640px) {
   .representation__card__slide {
     max-width: 440px;
@@ -396,10 +398,10 @@ ul {
   .representation__card__slide {
     max-width: 250px;
   }
-  .card__text__slide {    
+  .card__text__slide {
     max-width: 210px;
   }
-}    
+}
 /*=====description__image=====*/
 .description__image {
   padding: 75px 112px;
@@ -413,7 +415,7 @@ ul {
 .block__only__description {
   padding-left: 60px;
 }
-.block__only__description h2 {    
+.block__only__description h2 {
   margin-bottom: 15px;
   color: #b99bb6;
   font-size: 14px;
@@ -421,7 +423,7 @@ ul {
   letter-spacing: 1.5px;
   font-family: "Roboto400", sans-serif;
   font-weight: 400;
-} 
+}
 .block__only__description p {
   margin-bottom: 15px;
   color: #5f4d5d;
@@ -429,9 +431,9 @@ ul {
   line-height: 30px;
   font-family: "CormorantGaramond400", sans-serif;
   font-weight: 400;
-}    
+}
 .block__only__description a {
-  padding: 15px 30px;    
+  padding: 15px 30px;
   border: 1px solid #b99bb6;
   box-sizing: border-box;
   border-radius: 25px;
@@ -441,7 +443,10 @@ ul {
   letter-spacing: 1.5px;
   font-family: "Roboto400", sans-serif;
   font-weight: 400;
-}    
+}
+.mod-block_reverse {
+  flex-direction: row-reverse;
+}
 .mod-center__img {
   padding-left: 30px;
 }
@@ -494,7 +499,7 @@ hr {
   .block__description__image img {
     width: 90%;
   }
-}    
+}
 /*=====cost__images=====*/
 .cost__images {
   padding: 75px 145px 80px 115px;
