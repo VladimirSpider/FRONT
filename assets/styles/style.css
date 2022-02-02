@@ -606,3 +606,55 @@ hr {
   padding: 10px 15px;
   margin: 0 0 25px 0;
 }
+/*=====newsletter=====*/
+.newsletter {
+  text-align: center;
+  padding: 95px 420px 95px 420px;
+}
+.newsletter h2 {
+  color: #b99bb6;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  font-family: "Roboto400", sans-serif;
+  font-weight: 400;
+}
+.newsletter p {
+  color: #5f4d5d;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "CormorantGaramond400", sans-serif;
+  font-weight: 400;
+}
+.newsletter form {
+  margin: 12px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.newsletter input {
+  width: 210px;
+  padding: 20px 100px 20px 15px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border: 1px solid #b99bb6;
+  border-radius: 3px 0px 0px 3px;
+}
+.newsletter button {
+  width: 180px;
+  box-sizing: border-box;
+  border: 1px solid rgba(1, 1, 1, 0);
+  background: #ceb3cb;
+  border-radius: 0px 3px 3px 0px;
+}
+.newsletter input::placeholder,
+.newsletter button {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "CormorantGaramond400", sans-serif;
+  font-weight: 400;
+}
+.newsletter input::placeholder {
+  color: #ceb3cb;
+}
