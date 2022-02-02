@@ -545,3 +545,64 @@ hr {
     width: 280px;
   }
 }
+/*=====information_abuot_firm_and_you=====*/
+.information_abuot_firm_and_you {
+  padding: 65px 215px 80px 230px;
+  background-color: #ceb3cb;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.firm_information {
+  padding-bottom: 55px;
+}
+.information_abuot_firm_and_you ul {
+  margin-bottom: 20px;
+}
+.information_abuot_firm_and_you h3 {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  font-family: "Roboto400", sans-serif;
+  font-weight: 400;
+}
+.information_abuot_firm_and_you li {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: "CormorantGaramond400", sans-serif;
+  font-weight: 400;
+}
+.form_user_information input,
+.form_user_information textarea,
+.form_user_information button {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.form_user_information input::placeholder,
+.form_user_information textarea::placeholder,
+.form_user_information button {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "CormorantGaramond400", sans-serif;
+  font-weight: 400;
+}
+.form_user_information input {
+  width: 290px;
+  margin: 0 25px 30px 0;
+  padding: 15px 15px;
+}
+.form_user_information button {
+  padding: 10px 15px;
+  width: 210px;
+}
+.form_user_information textarea {
+  padding: 10px 15px;
+  margin: 0 0 25px 0;
+}
