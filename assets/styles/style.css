@@ -658,3 +658,42 @@ hr {
 .newsletter input::placeholder {
   color: #ceb3cb;
 }
+/*=====footer_with_images=====*/
+.footer_with_images {
+  background-color: #d6bbd3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 305px 15px 290px;
+}
+.block_in_footer_img_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block_in_footer_img_text div {
+  width: 95px;
+  height: 95px;
+  background-color: #ba9fb7;
+  border-radius: 111px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.block_in_footer_img_text h2 {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: "CormorantGaramond400", sans-serif;
+  font-weight: 400;
+}
+.block_in_footer_img_text p {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 30px;
+  font-family: "Roboto400", sans-serif;
+  font-weight: 400;
+}
