@@ -606,10 +606,40 @@ hr {
   padding: 10px 15px;
   margin: 0 0 25px 0;
 }
+
+@media (max-width: 1310px) {
+  .information_abuot_firm_and_you ul {
+    width: 290px;
+  }
+  .form_user_information textarea {
+    width: 290px;
+  }
+  .user_information {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 860px) {
+  .information_abuot_firm_and_you {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .information_abuot_firm_and_you {
+    flex-direction: column;
+  }
+}
+@media (max-width: 640px) {
+  .information_abuot_firm_and_you {
+    padding: 65px 20px 80px 20px;
+  }
+}
+
 /*=====newsletter=====*/
 .newsletter {
   text-align: center;
-  padding: 95px 420px 95px 420px;
+  padding: 95px 20px 95px 20px;
 }
 .newsletter h2 {
   color: #b99bb6;
@@ -658,6 +688,14 @@ hr {
 .newsletter input::placeholder {
   color: #ceb3cb;
 }
+
+@media (max-width: 620px) {
+  .newsletter form {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /*=====footer_with_images=====*/
 .footer_with_images {
   background-color: #d6bbd3;
@@ -696,4 +734,90 @@ hr {
   line-height: 30px;
   font-family: "Roboto400", sans-serif;
   font-weight: 400;
+}
+
+@media (max-width: 1130px) {
+  .footer_with_images {
+    flex-direction: column;
+    padding: 45px 20px 15px 20px;
+  }
+}
+
+/*=====footer=====*/
+.footer {
+  position: relative;
+  background-color: #c9adc6;
+  padding: 35px 0px 10px 115px;
+}
+.top_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.top_footer img {
+  margin-right: 65px;
+}
+.top_footer h2 {
+  margin-right: 35px;
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 21px;
+  font-family: "CormorantGaramond400", sans-serif;
+  font-weight: 400;
+}
+.bottom_footer span {
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Roboto400", sans-serif;
+  font-weight: 400;
+}
+.FaceBookFooter {
+  background-color: #d6bbd3;
+  position: absolute;
+  bottom: 45px;
+  right: 215px;
+  padding: 0 5px;
+}
+.ArrowFooter {
+  background-color: #ba9fb7;
+  position: absolute;
+  bottom: 0;
+  right: 110px;
+  padding: 5px 0;
+}
+
+@media (max-width: 950px) {
+  .ArrowFooter,
+  .FaceBookFooter {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 740px) {
+  .footer {
+    padding: 35px 0px 10px 0px;
+  }
+  .top_footer {
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px 20px 10px 20px;
+  }
+  .top_footer img,
+  .top_footer h2 {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .bottom_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bottom_footer span {
+    display: block;
+  }
 }
